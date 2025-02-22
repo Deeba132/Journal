@@ -11,7 +11,7 @@ export default function Routeers(){
     return(
         <div>
         <Contextprovider>
-        <BrowserRouter>
+        <BrowserRouter basename="/Journal">
          <Routes>
            <Route path="/" element={<App/>}/>
            <Route path="/create" element={<Text/>}/>
