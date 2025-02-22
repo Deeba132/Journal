@@ -1,0 +1,137 @@
+/* This CSS is applied globally */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: url('https://th.bing.com/th/id/OIP.Fu5Tt2nyqU61-JdfXOQkXwHaEf?rs=1&pid=ImgDetMain') no-repeat center center; /* Background image */
+  background-size: cover;
+  border: none; /* Remove any borders */
+  margin: 0; /* Remove any margins */
+  padding: 0; /* Remove any padding */
+}
+
+/* index.css */
+.container2 {
+  background-image: url('https://th.bing.com/th/id/OIP.Fu5Tt2nyqU61-JdfXOQkXwHaEf?rs=1&pid=ImgDetMain');
+  background-size: cover;
+  height: 1000px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: sticky;
+  top:0;
+  /* align-items: center;  */
+  /* justify-content: center; Centering content horizontally */
+}
+
+
+#navbar {
+  margin: 0; /* Remove margins */
+  padding: 0; /* Remove padding */
+  border: none; /* Remove any borders */
+  display: flex;
+  background-color: antiquewhite;
+}
+
+#fontselect {
+  width: 800px;
+}
+
+.color-box {
+  width: 200px; /* Set the width of the box */
+  height: 20px; /* Set the height of the box */
+  border: 2px solid #ccc; /* Border styling for the box */
+  display: flex; /* Use flexbox for centering */
+  align-items: center; /* Vertically center the input */
+  justify-content: center; /* Horizontally center the input */
+  border-radius: 0px; /* No rounded corners for the box */
+  padding: 0px; /* Remove padding inside the box */
+}
+
+#colorpicker {
+  width: 200px; /* Adjust the size as needed */
+  height: 20px; /* Adjust the size as needed */
+  border-radius: 0%; /* Make it circular */
+  border: none; /* Remove default border */
+  padding: 0; /* Remove padding */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  -webkit-appearance: none; /* Remove default appearance in WebKit browsers */
+  -moz-appearance: none; /* Remove default appearance in Mozilla browsers */
+  appearance: none; /* Remove default appearance */
+}
+
+/* Styling for the color input for different browsers */
+#colorpicker::-webkit-color-swatch-wrapper {
+  padding: 0;
+  border-radius: 0%;
+}
+
+#colorpicker::-webkit-color-swatch {
+  border: none;
+  border-radius: 0%;
+}
+
+#colorpicker::-moz-color-swatch {
+  border: none;
+  border-radius: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+#textarea, #textarea2 {
+  font-size: 14px; /* Font size */
+  margin: 0; /* Remove margins */
+  padding: 0; /* Remove padding */
+  border: none; /* Remove any borders */
+  border-radius: 5px; /* Rounded corners */
+  resize: none; /* Disable resizing */
+  width: 100%; /* Full width */
+  color: #000; /* Default font color */
+  background: transparent; /* Make the textarea background transparent */
+  outline: none; /* Remove focus outline */
+}
+
+#textarea {
+  height: 600px; /* Set a fixed height */
+}
+
+#textarea2 {
+  height: 100px; /* Set a fixed height */
+}
+/* JournalItem.css */
+/* JournalItem.css */
+#List {
+  background: url('https://th.bing.com/th/id/OIP.Ndec_Mssw8vVGCyLcYpqLwHaHc?rs=1&pid=ImgDetMain') center center; /* Background image */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  height:800px;/* Center items horizontally */
+  background-size: cover;
+}
+
+.list-container {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+.list-item {
+  background-color: black;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+}
+
+.list-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.list-item a:hover {
+  text-decoration: underline;
+}

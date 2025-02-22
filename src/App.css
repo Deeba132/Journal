@@ -1,0 +1,151 @@
+/* index.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+.container02 {
+  background-color: burlywood;
+  position: relative; /* Ensure parent is relative */
+  z-index: 10;
+  height: 50vh; /* Adjusted to take full viewport height */
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.vid {
+  object-fit: cover; /* Adjusted for better video fit */
+  height: 50vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* index.css */
+
+.flex-overlay {
+  display: flex;
+  flex: auto;
+  width: 100%;
+  position: absolute; /* Absolute positioning to overlay on video */
+  bottom: 0;
+  justify-content: center; /* Center flex items horizontally */
+  z-index: 30;
+  align-items: center;
+}
+
+.flex-item {
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  font-family: 'Brush Script MT', cursive;
+  display: flex;
+  justify-content: center; /* Center flex items horizontally */
+  align-items: center; /* Center flex items vertically */
+  width: 200px; /* Increased width */
+  height: 150px; /* Increased height */
+  margin: 0 20px; /* Combined margin properties */
+  position: relative;
+  white-space: nowrap;
+  text-align: center; /* Center text */
+  border-radius: 150px;
+  background-image: url("./feather-removebg-preview.png");
+  background-size: cover; /* Ensure the image is contained within the div */
+  background-repeat: no-repeat; /* Ensure the image is not repeated */
+  transition: transform 0.3s ease, margin-top 0.3s;
+  z-index: 5;
+  padding: 0; /* Ensure padding doesn't affect centering */
+  bottom: 0px;
+}
+
+.flex-item:hover {
+  transform: scale(1.1) translateY(-10px); /* Scale up the item on hover */
+  margin-top: -10px; /* Adjust margin to account for the scaling and hover effect */
+  background-image: url("./feather-removebg-preview.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  z-index: 10;
+  height: 150px; /* Increased height */
+  display: flex;
+  justify-content: center; /* Center flex items horizontally */
+  align-items: center; /* Center flex items vertically */
+}
+
+
+.screenshot-container {
+  height: 50vh; /* h-5/6 */
+  background-image: url('https://th.bing.com/th/id/OIP.Fu5Tt2nyqU61-JdfXOQkXwHaEf?rs=1&pid=ImgDetMain');
+  background-size: cover;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.screenshot {
+  display: flex;
+  height: 300px;
+  width: 50px;
+  text-decoration: solid;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  overflow: visible;
+  font-family: Brush Script MT, cursive;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.flexed {
+  display: inline-flex;
+  height: 100px;
+  width: 20px;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  font-family: fantasy;
+}
+.vintage-button {
+  display: flex;
+  margin-bottom: 0px ; /* Center the button horizontally */
+  margin-top:180px;
+  padding: 10px 20px;
+  font-family: 'Brush Script MT', cursive; /* Cursive font */
+  font-size: 24px;
+  color: #fff;
+  background-color: #885600; /* Vintage brown color */
+  border: 2px solid #7d5300; /* Darker border for vintage look */
+  border-radius: 8px;
+  text-align: center;
+  text-shadow: 1px 1px #865300; /* Text shadow for vintage effect */
+  box-shadow: 3px 3px 6px black; /* Box shadow for depth */
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.vintage-button:hover {
+  background-color: #270a00; /* Slightly darker brown on hover */
+  box-shadow: 3px 3px 8px black; /* Slightly deeper shadow on hover */
+}
+
+.vintage-button2 {
+  display: inline-block;
+  margin: 0; /* Remove margins */
+  padding: 10px 20px;
+  font-family: 'Brush Script MT', cursive; /* Cursive font */
+  font-size: 24px;
+  color: #fff;
+  background-color: #885600; /* Vintage brown color */
+  border: 2px solid #7d5300; /* Darker border for vintage look */
+  border-radius: 8px;
+  text-align: center;
+  text-shadow: 1px 1px #865300; /* Text shadow for vintage effect */
+  box-shadow: 3px 3px 6px black; /* Box shadow for depth */
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
