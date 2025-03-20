@@ -1,3 +1,5 @@
+Live project:-https://deeba132.github.io/Journal/ 
+
 Developed a personal journal SPA(Single page application) using React.js and IndexedDB for offline data storage.
 Implemented features for creating,saving and viewing journal entries including custom font, custom text size and text color selection.
 Utilized React Router for list-based journal navigation and to navigate to different sections of the application and used React Context API for state management.
